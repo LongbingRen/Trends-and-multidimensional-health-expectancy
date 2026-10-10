@@ -42,3 +42,7 @@ never coded as favourable. Terminal covariates are carried from the preceding li
 - ELECT authors' methods paper: https://discovery.ucl.ac.uk/10075585/1/CMPB_AvdH_AcceptedVersion.pdf
 - ELECT source documentation inspected for output names and random-draw order:
   https://rdrr.io/cran/elect/src/R/elect.r
+
+## License
+The R analysis code in this repository is distributed under the MIT License. See the LICENSE file for details.
+This license applies only to the analysis code and does not extend to the underlying Chinese Longitudinal Healthy Longevity Survey (CLHLS) data, which remain subject to their respective data access and use conditions.
