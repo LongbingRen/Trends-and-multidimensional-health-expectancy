@@ -4,9 +4,9 @@
 This is the key analysis code for "Diverging trends and drivers in multidimensional health expectancy in China, 2002–2022: a nationwide cohort study".
 
 ## Code files
-1-01_models.R` | Cox, baseline logistic regression and three-state MSM 
-2-02_life_expectancy.R` | ELECT marginal health expectancy, harmonisation and uncertainty summaries
-3-03_scenarios.R` | Symmetric decomposition; 100% and 80% attainment
+1-01_models. Cox, baseline logistic regression and three-state MSM 
+2-02_life_expectancy. ELECT marginal health expectancy, harmonisation and uncertainty summaries
+3-03_scenarios. Symmetric decomposition; 100% and 80% attainment
 
 ## Requirements
 We performed analysis using R (version 4.5.2).
