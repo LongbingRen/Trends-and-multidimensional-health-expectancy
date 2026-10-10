@@ -9,7 +9,15 @@ This is the key analysis code for "Diverging trends and drivers in multidimensio
 3-03_scenarios. Symmetric decomposition; 100% and 80% attainment
 
 ## Requirements
-We performed analysis using R (version 4.5.2).
+We performed analysis using R (version 4.5.2). No specialised hardware, such as a GPU, is required by the analysis code. Computational requirements depend on the dataset size, the number of model fits and the simulation settings.
+
+## Installation
+Download or clone the GitHub repository. 
+Install R version 4.5.2.
+Install the R packages required by the analysis scripts, including msm, elect, survival and mice, together with any additional dependencies identified in the scripts.
+Prepare the harmonised longitudinal input data according to the data layout described below.
+Configure the model parameters and input paths before running the analysis scripts.
+Installation time varies depending on the R environment, package availability and network speed.
 
 ## Data availability
 The data that support the findings of this study are available from Peking University Open Research Data. The data access requires the completion of a detailed application form from the website.
