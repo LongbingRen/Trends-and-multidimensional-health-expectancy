@@ -19,6 +19,15 @@ Prepare the harmonised longitudinal input data according to the data layout desc
 Configure the model parameters and input paths before running the analysis scripts.
 Installation time varies depending on the R environment, package availability and network speed.
 
+## Demonstration
+A minimal demonstration of the health expectancy estimation interface is provided in tests/smoke_elect.R.
+The demonstration uses electData, a simulated example dataset distributed with the R package elect.
+To run the demonstration: Rscript tests/smoke_elect.R
+Run this command from the repository root after installing the required R packages.
+Expected output: ELECT interface smoke test passed. Not a CLHLS reproduction test.
+The script fits a continuous-time multistate Markov model and verifies the output dimensions, finite numerical estimates and reproducibility of the health expectancy calculation under a fixed random seed.
+This demonstration is intended to validate the software interface rather than reproduce the numerical findings of the manuscript.
+
 ## Data availability
 The data that support the findings of this study are available from Peking University Open Research Data. The data access requires the completion of a detailed application form from the website.
 Researchers interested in this study can contact the corresponding author (Yao Yao) for further information.
